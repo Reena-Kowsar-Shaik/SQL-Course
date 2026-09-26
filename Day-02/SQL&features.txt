@@ -1,0 +1,102 @@
+what is SQL?
+
+SQL (Structured Query Language) is a standard programming language used to communicate with and manage databases.
+
+It is used to create, store, retrieve, update, and delete data in a database.
+
+Features of SQL
+
+SQL (Structured Query Language) is a language used to create, manage, and retrieve data from databases.
+
+Main Features:
+Easy to Learn:SQL uses simple English-like commands such as SELECT, INSERT, UPDATE, and DELETE.
+Data Retrieval:Used to retrieve specific data from a database.
+Example: SELECT * FROM students;
+Data Manipulation:Allows us to add, modify, and delete data.
+Commands: INSERT, UPDATE, DELETE.
+Data Definition:Used to create and modify database structures.
+Commands: CREATE, ALTER, DROP.
+Data Security
+Controls who can access or modify database data.
+Commands: GRANT, REVOKE.
+Data Integrity
+Helps maintain accurate and consistent data using constraints such as:
+PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL.
+Transaction Management
+Manages database transactions.
+Commands: COMMIT, ROLLBACK, SAVEPOINT.
+Multiple Table Operations
+SQL can combine data from multiple tables using JOINs.
+Standardized Language
+SQL is an internationally standardized language used by many database systems.
+Handles Large Amounts of Data
+SQL can efficiently store, search, and manage large datasets.
+
+Sub languages or Categories of SQL:
+
+1. DDL — Data Definition Language
+
+Definition:
+DDL is used to create, change, and delete the structure of database objects such as tables.
+
+Main DDL commands:
+
+CREATE → creates a table/database
+ALTER → changes the structure
+DROP → deletes the table/database
+TRUNCATE → removes all records from a table
+
+Example:
+
+CREATE TABLE student (
+    id INT,
+    name VARCHAR(50)
+);
+
+2. DML — Data Manipulation Language
+
+Definition:
+DML is used to add, change, and delete data inside a table.
+
+Main DML commands:
+
+INSERT → adds new data
+UPDATE → changes existing data
+DELETE → removes data
+
+3. DQL — Data Query Language
+
+Definition:
+DQL is used to retrieve or fetch data from a database.
+
+Main command:
+
+SELECT → retrieves data
+
+Example:
+
+SELECT * FROM student;
+
+4. DCL — Data Control Language
+
+Definition:
+DCL is used to control access and permissions of users in a database.
+
+Main commands:
+
+GRANT → gives permissions to a user
+REVOKE → removes permissions from a user
+
+5. TCL — Transaction Control Language
+
+Definition:
+TCL is used to manage transactions in a database.
+
+A transaction is a group of database operations that are treated as one unit.
+
+Main TCL commands:
+
+COMMIT → permanently saves changes
+ROLLBACK → cancels/undoes changes
+SAVEPOINT → creates a point to which you can roll back
+
